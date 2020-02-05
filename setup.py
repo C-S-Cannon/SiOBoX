@@ -5,7 +5,7 @@ from setuptools import find_namespace_packages, setup
 
 setup(
 
-    # package setup
+    # ***package setup***
     name='SiOBox.testPack',  # package name
     version='0.1.a',
             # what version, pre release codes are 'anything' < 'final'
@@ -15,22 +15,28 @@ setup(
     packages=find_namespace_packages(where="src"),
     # what and where are the packages, conforms to src/ layout
     # calls setuptools member to automate this, allows setup.py auto update
-    package_dir={"SiOBox": "src"},  # source directory for the given package
-    include_package_data=True,  # should data inside package be included
-    zip_safe=False,  # can package be installed from Zip?
+    package_dir={"SiOBox": "src"},
+    # source directory for the given package
+    include_package_data=True,
+    # should data inside package be included
+    zip_safe=False,
+    # can package be installed from Zip?
 
     # entry_points={'console_scripts': ['runPEPS = PEPS.command_line:main']},
     # What is the runPEPS command in use at the above line?
 
-    # requirements
+    # ***requirements***
     python_requires='>=3.3',
     # required version of python is 3.3 or greater as defined in PEP 440
     # necessary since this is a namespace package and 2.7 is EOL
-    setup_requires='',   # packages required to run the setup script itself
-    dependency_links='',  # URLS to be searched for setup_requires dependencies
-    install_requires='',  # packages required for the package to function
+    setup_requires='',
+    # packages required to run the setup script itself
+    dependency_links='',
+    # URLS to be searched for setup_requires dependencies
+    install_requires='',
+    # packages required for the package to function
 
-    # distribution metadata
+    # ***distribution metadata***
     url='https://github.com/C-S-Cannon/SiOBoX',
     author='Cameron Cannon',
     author_email='c_cannon@ucsb.edu',
