@@ -6,7 +6,7 @@ from setuptools import find_namespace_packages, setup
 setup(
 
     # ***package setup***
-    name='SiOBox.testPack',  # package name
+    name='SiOBox',  # package name
     version='0.1.a',
             # what version, pre release codes are 'anything' < 'final'
             # equivelat post finals, c = pre = preview = rc
@@ -29,11 +29,11 @@ setup(
     python_requires='>=3.3',
     # required version of python is 3.3 or greater as defined in PEP 440
     # necessary since this is a namespace package and 2.7 is EOL
-    setup_requires='',
+    setup_requires=[],
     # packages required to run the setup script itself
-    dependency_links='',
+    dependency_links=[],
     # URLS to be searched for setup_requires dependencies
-    install_requires='',
+    install_requires=[],
     # packages required for the package to function
 
     # ***distribution metadata***
@@ -41,7 +41,7 @@ setup(
     author='Cameron Cannon',
     author_email='c_cannon@ucsb.edu',
     license='MIT',
-    description="This is a test package for parts of HSG-turbo",
+    description="This is a test package for parts of HSG-turbo"
 )
 
 # look at utilizing extras for correllated modules that are only required in
