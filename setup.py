@@ -7,7 +7,7 @@ setup(
 
     # ***package setup***
     name='SiOBox',  # package name
-    version='0.1.a',
+    version='0.1a0',
             # what version, pre release codes are 'anything' < 'final'
             # equivelat post finals, c = pre = preview = rc
             # post release codes are 'anything' > 'final'
