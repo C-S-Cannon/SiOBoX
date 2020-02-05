@@ -7,12 +7,14 @@ setup(
 
     # package setup
     name='SiOBox.testPack',  # package name
-    version='0.1',  # what version, pre release codes are 'anything' < 'final'
-                    # equivelat post finals, c = pre = preview = rc
-                    # post release codes are 'anything' > 'final'
-                    # thus 1.0 < 1.1a < 1.1pre < 1.1 < 1.1finally < 1.1g
+    version='0.1.a',
+            # what version, pre release codes are 'anything' < 'final'
+            # equivelat post finals, c = pre = preview = rc
+            # post release codes are 'anything' > 'final'
+            # thus 1.0 < 1.1a < 1.1pre < 1.1 < 1.1finally < 1.1g
     packages=find_namespace_packages(where="src"),
     # what and where are the packages, conforms to src/ layout
+    # calls setuptools member to automate this, allows setup.py auto update
     package_dir={"SiOBox": "src"},  # source directory for the given package
     include_package_data=True,  # should data inside package be included
     zip_safe=False,  # can package be installed from Zip?

@@ -1,1 +1,2 @@
-print('System Nominal')
+def memberTest():
+    print('System Nominal')
