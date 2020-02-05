@@ -15,7 +15,7 @@ setup(
     packages=find_namespace_packages(where="src"),
     # what and where are the packages, conforms to src/ layout
     # calls setuptools member to automate this, allows setup.py auto update
-    package_dir={"SiOBox": "src"},
+    package_dir={"": "src"},
     # source directory for the given package
     include_package_data=True,
     # should data inside package be included
