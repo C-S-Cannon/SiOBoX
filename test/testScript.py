@@ -1,3 +1,3 @@
-import SiOBoX
+import SiOBox.testPack as test
 
-SiOBoX.testPack.memberTest()
+test.memberTest()
