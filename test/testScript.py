@@ -1,10 +1,3 @@
-import SiOBox
+from SiOBox.testPack import testbed
 
-
-def __main__():
-    a = SiOBox.grain
-
-
-SiOBox.testPack.memberTest()
-
-__main__()
+testbed.memberTest()

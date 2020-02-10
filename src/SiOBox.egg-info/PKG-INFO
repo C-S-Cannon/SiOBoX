@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: SiOBox
+Version: 0.1a0
+Summary: This is a test package for parts of HSG-turbo
+Home-page: https://github.com/C-S-Cannon/SiOBoX
+Author: Cameron Cannon
+Author-email: c_cannon@ucsb.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.3

@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/SiOBox/__init__.py
+src/SiOBox/testbox.py
+src/SiOBox.egg-info/PKG-INFO
+src/SiOBox.egg-info/SOURCES.txt
+src/SiOBox.egg-info/dependency_links.txt
+src/SiOBox.egg-info/not-zip-safe
+src/SiOBox.egg-info/top_level.txt
+src/SiOBox/testPack/__init__.py
+src/SiOBox/testPack/testbed.py
+test/testScript.py
