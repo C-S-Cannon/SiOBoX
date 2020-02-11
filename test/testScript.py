@@ -1,3 +1,3 @@
-from SiOBox.testPack import testbed
+import SiOBox.testPack as t
 
-testbed.memberTest()
+t.testbed.memberTest()
