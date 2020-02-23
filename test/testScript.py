@@ -1,3 +1,4 @@
-import SiOBox.testPack as t
+import SiOBox as s
 
-t.testbed.memberTest()
+# "s.testbed.memberTest()" works with "import SiOBox as s"
+s.testPack.testbed.memberTest()
